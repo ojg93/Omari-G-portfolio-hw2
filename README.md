@@ -1,0 +1,1 @@
+I have created a webpage portfolio showcasing my skills. I have added a picture of myself and created links that highlight my work, a brief summary about me and a few ways to contact me. 

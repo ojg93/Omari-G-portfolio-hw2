@@ -79,12 +79,12 @@ header nav {
 .sections img {
     max-height: 200px;
 
-}
+    }
 
 .float {
     float: left;
     padding-bottom: 15px;
-} 
+    } 
 
 
 .footer-contact {
