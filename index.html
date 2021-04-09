@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html>    
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,63 +8,78 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
-    </head>
+    </head>         
     
     <body>
-       <header>
-           <h1>OMARI GRAMPUS</h1>
-           <nav>
-               <ul>
-                   <li><a href="#About Me">About Me</a></li>
-                   <li><a href="#Work">Work</a></li>
-                   <li><a href="#Contact Me">Contact Me</a></li>
-               </ul> 
-           </nav>
-       </header>
-       <div class="backgroundpic">
+        <header>
+         <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid nav-container flex-row">
+                <div id="about-me">
+                    <a class="navbar-brand" href="#about-me-info">About Me</a>
+                </div>
+                <div id="work">
+                    <a class="navbar-brand" href="#work-info">Work</a>
+                </div>
+                <div id="contact-me">
+                    <a class="navbar-brand" href="#contact-me-info">Contact Me</a>
+                </div>
+            </div>
+          </nav>
+        </header>       
+          
+        <img id="bg" src="imgs/84081FFA-0A1F-4800-B394-DD2D37D1DDB1_1_105_c.jpeg" alt="">
+          
+        <div class="container h1-container">
+            <div>
+              <span id="span-text">Welcome To The World Of</span>
+              <h1>Omari Grampus</h1>
+            </div>
+            <div id="about-me-info">
+                <h3>About Me</h3>
+                  <p>
+                  I am a 27 year old full stax student currently enrolled at Georgia Tech. During the beginning of COVID, I took free online
+                  classes on software development and decided to further my education my enrolling into a bootcamp.
+                  Outside of coding I enjoy sports, fitness, and music. My favorite hobbies are playing video games and making music of my own.
+                  I enjoy coding and learning and want to advance myself into a new carrer. I know the road will be hard but im excited and willing
+                  to put the work in and see where my journey takes me! 
+                  </p>
+            </div>
+            
+            <div id="work-info">
+              <h3>Work</h3>
+              <div class="card flex-row" style="width: 18rem;">
+                   <div class="card-body card1">
+                     <h5 class="card-title">Scratch Activity</h4>
+                     <a href="#" class="card-link card-links">https://scratch.mit.edu/projects/474156972</a>
+                  </div>
+                  <div class="card-body card2">
+                    <h5 class="card-title">Event Calender</h4>
+                    <a href="#" class="card-link card-links">https://ojg93.github.io/Work-Day-Scheduler/</a>
+                  </div>
+                  <div class="card-body card3">
+                    <h5 class="card-title">Genesis Stock-Watcher</h4>
+                    <a href="#" class="card-link card-links"> https://markhatthorinc.github.io/gt-bootcamp-project01-team_Genesis/</a>
+                  </div>
+                  <div class="card-body card4">
+                    <h5 class="card-title">Card title</h4>
+                    <a href="#" class="card-link card-links">Card link</a>
+                  </div>
+              </div>
+          </div>
 
-       </div>
-       <main>
-           <section class="sections">
-               <img src="imgs/84081FFA-0A1F-4800-B394-DD2D37D1DDB1_1_105_c.jpeg" alt="Picture of Omari" class="float" />
-               <span id= "About Me">
-               <h2>ABOUT ME</h2>
-               <p>
-                   I am a upcoming software developer, who stated self teaching myself Python during the beginning of COVID. I took a real intrest to it, wanted to further my skill set and advance myself into a new career. Ive always have had an intest in
-                   technology and computers and beilieve becoming a developer would be a great fit for me. I am from Rockland County, New York, but now reside in Sandy Springs, GA. I enjopy Playing sports, working out, writing music and making music. I have
-                   a willingness to learn and one day with much practice and commitment be able to create phenominal apps and webistes for all to use. 
-               </p>
-               </span>
-           </section>
-           <section class="sections">
-               <span id="Work">
-                <h2>WORK</h2>
-               <p> Check out my scratch game I created! <a href="https://scratch.mit.edu/projects/474156972">Scratch Game</a> </p>
-            </span>
-            </section>
-           </section>
-       </main>
-       <footer class="footer-contact">
-           <span id="Contact Me">
-           <h3>
-               CONTACT ME
-           </h3>
-           <nav>
-               <ul>
-                   <li>
-                       Email
-                   </li>
-                   <li>
-                       Linkedin
-                   </li>
-                   <li>
-                       Phone
-                   </li>
-               </ul>
-           </nav>
-            </span>
-       </footer>
-    
-         <script src="" async defer></script>
-    </body>
+            <div id="contact-me-info" class="container footer">
+            <h3 id="footer-h3">
+              Contact Me:
+            </h3>
+            <p class="footer-text">
+              Email:ojgrampus@gmail.com
+            </p>
+            <p class="footer-text">
+              Work Phone: 800-888-8888
+            </p>
+            <p class="footer-text">
+              linkedin: 
+            </p>
+          </div>
+    </body> 
 </html>
