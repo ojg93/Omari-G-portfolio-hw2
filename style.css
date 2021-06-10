@@ -45,6 +45,7 @@ background-color: white;
     background-color: rgb(222, 159, 152);
 }
 
+
 #work{
     position: relative;
     left: 405px;
@@ -103,49 +104,60 @@ h1{
 }
 
 #work-info{
-    position: relative;
     border-style: solid;
     border-color: black;
     border-width: 1px;
-    height: 496px;
+    height: 495px; 
     width: 695px;
     background-color: whitesmoke;
     text-align: center;
     font-family: fantasy;
     transition: all .2s ease-in-out;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-style: solid;
 }
 
 #contact-me-info{
     border-style: solid;
-    position: relative;
+    margin-right: 500px;
+    padding-top: 10px;
+    
     /* bottom: 1100px; */
     transition: all .2s ease-in-out;
 }
 
+.card6:hover { transform: scale(1.1); }
+.card5:hover { transform: scale(1.1); }
 .card4:hover { transform: scale(1.1); }
 .card3:hover { transform: scale(1.1); }
 .card2:hover { transform: scale(1.1); }
 .card1:hover { transform: scale(1.1); }
 
+
+.card6,
+.card5,
 .card4,
 .card3,
 .card2,
 .card1{
-    margin: 10px;
-    margin-top: 10px;
     border-style: solid;
     border-width: 1px;
     transition: all .2s ease-in-out;
-    position: relative;
-    bottom: 40px; 
     background-color: white;
+    width: 250px;
+    height: 115px;
+    margin-top: 30px;
 }
 
 .card-links{
     font-size: 10px;
 }
  
-h3{
+#workTitle{
+    margin-bottom: 15px;
+    margin-left: 50px;
     font-size: 30px;
     font-style: italic;
     font-style: oblique;
@@ -160,25 +172,28 @@ h3{
 
 .footer{
     font-family: fantasy;
-    position: relative;
     border-style: solid;
     border-width: 1px;
-    right: 725px;
-    width: 1420px;
-    height: 150px;;
-    display: flex;
+    width:695px;
+    height: 100px;
     background-color: whitesmoke;
+    margin-top: 10px;
+    margin-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
 }
 
 #footer-h3{
-    position: relative;
-    left: 650px;
     text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    
 }
 
 
 .footer-text{
-    margin-left: 150px;
-    position: relative;
-    top: 80px;
+    padding-left: 15px;
+    margin-bottom: 60px;   
 }
